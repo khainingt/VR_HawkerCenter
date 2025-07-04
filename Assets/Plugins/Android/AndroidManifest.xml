@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.yourcompany.yourapp">
+
+	<!-- 网络与连接权限 -->
+	<uses-permission android:name="android.permission.INTERNET"/>
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+	<uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+
+	<!-- 蓝牙与定位权限 -->
+	<uses-permission android:name="android.permission.BLUETOOTH"/>
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+	<uses-permission android:name="android.permission.BLUETOOTH_CONNECT"/>
+	<uses-permission android:name="android.permission.BLUETOOTH_SCAN"/>
+	<uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE"/>
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+	<uses-feature android:name="android.hardware.bluetooth" android:required="false"/>
+	<uses-feature android:name="android.hardware.bluetooth_le" android:required="false"/>
+
+	<!-- VR / Meta Quest 相关权限与特性 -->
+	<uses-feature android:name="android.hardware.vr.headtracking" android:version="1" android:required="true"/>
+	<uses-feature android:name="oculus.software.handtracking" android:required="false"/>
+	<uses-feature android:name="com.oculus.feature.PASSTHROUGH" android:required="false"/>
+	<uses-permission android:name="com.oculus.permission.HAND_TRACKING"/>
+	<uses-permission android:name="com.oculus.permission.USE_ANCHOR_API"/>
+	<uses-permission android:name="horizonos.permission.HEADSET_CAMERA"/>
+	<uses-permission android:name="com.oculus.permission.USE_SCENE"/>
+	<uses-permission android:name="com.oculus.permission.BOUNDARY_VISIBILITY"/>
+
+	<application
+        android:label="@string/app_name"
+        android:icon="@mipmap/app_icon"
+        android:allowBackup="false"
+        android:theme="@style/UnityThemeSelector">
+
+		<activity
+            android:name="com.unity3d.player.UnityPlayerGameActivity"
+            android:theme="@style/BaseUnityGameActivityTheme"
+            android:launchMode="singleTask"
+            android:exported="true"
+            android:configChanges="locale|fontScale|keyboard|keyboardHidden|mcc|mnc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|touchscreen|uiMode">
+
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+
+			<meta-data android:name="unityplayer.UnityActivity" android:value="true" />
+			<meta-data android:name="android.app.lib_name" android:value="game" />
+		</activity>
+	</application>
+</manifest>
