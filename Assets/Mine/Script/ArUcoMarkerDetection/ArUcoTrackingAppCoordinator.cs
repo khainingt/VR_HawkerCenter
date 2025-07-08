@@ -51,6 +51,8 @@ namespace TryAR.MarkerTracking
 
         private Texture2D m_resultTexture;
 
+        [Header("NPC")]
+        [SerializeField] private NPCSequence npc;
         /// <summary>
         /// Initializes the camera, permissions, and marker tracking system.
         /// </summary>
@@ -141,12 +143,18 @@ namespace TryAR.MarkerTracking
         /// </summary>
         private void HandleVisualizationToggle()
         {
-            if (OVRInput.GetDown(OVRInput.Button.One))
+            /*if (OVRInput.GetDown(OVRInput.Button.One))
+            {
+                m_showCameraCanvas = !m_showCameraCanvas;
+                SetMarkerObjectsVisibility(!m_showCameraCanvas);
+            }*/
+            if (npc != null && npc.hasServed)
             {
                 m_showCameraCanvas = !m_showCameraCanvas;
                 SetMarkerObjectsVisibility(!m_showCameraCanvas);
             }
         }
+
 
         /// <summary>
         /// Performs marker detection and pose estimation.

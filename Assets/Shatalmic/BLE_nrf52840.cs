@@ -274,4 +274,20 @@ public class BLE_nrf52840 : MonoBehaviour
             BluetoothLEHardwareInterface.Log("Write Succeeded");
         });
     }
+
+    public void SendBitmask(ushort mask)
+    {
+        byte[] data = new byte[]
+        {
+
+            (byte)(mask & 0xFF),
+            (byte)((mask >> 8) & 0xFF)
+        };
+
+        BluetoothLEHardwareInterface.WriteCharacteristic(_deviceAddress, ServiceUUID, CharactristicUUID, data, data.Length, true, (characteristicUUID) =>
+        {
+
+            BluetoothLEHardwareInterface.Log("Write Succeeded");
+        });
+    }
 }
