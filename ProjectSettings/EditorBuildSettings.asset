@@ -5,12 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Mine/NewtonHawkerCenter.unity
     guid: 185e8887659ce9b45b208c2279bc8e30
-  - enabled: 1
-    path: Assets/hawkercenter2.unity
-    guid: 09473105ac09b3045a7b971e35438e16
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 1f6e424bb69784f8e8b5df6563fe45de, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

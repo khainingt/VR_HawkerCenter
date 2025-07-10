@@ -53,6 +53,7 @@ namespace TryAR.MarkerTracking
 
         [Header("NPC")]
         [SerializeField] private NPCSequence npc;
+        private bool prevHasServed = false;
         /// <summary>
         /// Initializes the camera, permissions, and marker tracking system.
         /// </summary>
@@ -148,11 +149,37 @@ namespace TryAR.MarkerTracking
                 m_showCameraCanvas = !m_showCameraCanvas;
                 SetMarkerObjectsVisibility(!m_showCameraCanvas);
             }*/
-            if (npc != null && npc.hasServed)
+
+            /*if (npc != null && npc.hasServed)
             {
-                m_showCameraCanvas = !m_showCameraCanvas;
-                SetMarkerObjectsVisibility(!m_showCameraCanvas);
+                SetMarkerObjectsVisibility(m_showCameraCanvas);
+            }*/
+
+            if (npc == null) return;
+
+            // 只有从 false → true 的那一帧才切换
+            if (!prevHasServed && npc.hasServed)
+            {
+                m_showCameraCanvas = true; // 或你想要的显示状态
+                SetMarkerObjectsVisibility(true);
             }
+
+            if (prevHasServed && !npc.hasServed)
+            {
+                m_showCameraCanvas = false;
+                SetMarkerObjectsVisibility(false);
+            }
+
+            // 记录当前状态
+            prevHasServed = npc.hasServed;
+        }
+
+
+        public void ForceHideMarkers()
+        {
+            m_showCameraCanvas = false;
+            SetMarkerObjectsVisibility(false);
+            prevHasServed = false;
         }
 
 

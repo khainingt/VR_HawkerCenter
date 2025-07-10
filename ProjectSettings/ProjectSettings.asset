@@ -831,7 +831,7 @@ PlayerSettings:
   webGLCloseOnQuit: 0
   webWasm2023: 0
   scriptingDefineSymbols:
-    Android: ISDK_OPENXR_HAND;READY_PLAYER_ME;ZXING_ENABLED
+    Android: ZXING_ENABLED;ISDK_OPENXR_HAND;READY_PLAYER_ME
     EmbeddedLinux: READY_PLAYER_ME
     GameCoreScarlett: READY_PLAYER_ME
     GameCoreXboxOne: READY_PLAYER_ME
@@ -841,12 +841,12 @@ PlayerSettings:
     PS5: READY_PLAYER_ME
     QNX: READY_PLAYER_ME
     ReservedCFE: READY_PLAYER_ME
-    Standalone: ISDK_OPENXR_HAND;READY_PLAYER_ME;ZXING_ENABLED
+    Standalone: ZXING_ENABLED;ISDK_OPENXR_HAND;READY_PLAYER_ME
     VisionOS: READY_PLAYER_ME
     WebGL: READY_PLAYER_ME
     Windows Store Apps: READY_PLAYER_ME
     XboxOne: READY_PLAYER_ME
-    iPhone: READY_PLAYER_ME;ZXING_ENABLED
+    iPhone: ZXING_ENABLED;READY_PLAYER_ME
     tvOS: READY_PLAYER_ME
   additionalCompilerArguments: {}
   platformArchitecture: {}
