@@ -1,82 +1,74 @@
-using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
+using System.Collections;
+using TryAR.MarkerTracking;
 
 public class NPCSequence : MonoBehaviour
 {
     public Animator animator;
     public NavMeshAgent agent;
 
-    public GameObject foodItem;
-    public Transform handPivot;
-    public Transform dropSpot;
+    public Transform servePoint;   
+    public Transform pickupPoint;   
+    public GameObject tray;         
 
-    public float pickupDuration = 2f;
-    public float dropDuration = 2f;
+    [HideInInspector]
+    public bool hasServed = false;  
+    private bool isServing = false; 
 
-    private enum State { Idle, GoingToPickUp, PickingUp, GoingToDrop, Dropping }
-    private State currentState = State.Idle;
 
-    public bool hasServed { get; private set; } = false;
-
-    private void Start()
+    public void StartServing()
     {
-        agent.stoppingDistance = 0.1f;
+        if (isServing) return;
+        StartCoroutine(ServeRoutine());
     }
 
-    public void StartSequence()
+    private IEnumerator ServeRoutine()
     {
-        hasServed = false; // 重置标志位
-        StartCoroutine(NPCSequenceRoutine());
+        isServing = true;
+        hasServed = false;
+
+        FindObjectOfType<ArUcoTrackingAppCoordinator>().ForceHideMarkers();
+
+        animator.SetTrigger("Turn");
+        yield return StartCoroutine(WaitForAnimation("Turn"));
+
+        agent.SetDestination(pickupPoint.position);
+        animator.SetBool("Walking", true);
+        while (agent.pathPending || agent.remainingDistance > agent.stoppingDistance)
+            yield return null;
+        animator.SetBool("Walking", false);
+
+        animator.SetTrigger("PickUp");
+        yield return StartCoroutine(WaitForAnimation("PickUp"));
+
+        if (tray != null) tray.SetActive(true);
+
+        //animator.SetTrigger("Turn");
+        //yield return StartCoroutine(WaitForAnimation("Turn"));
+
+        agent.SetDestination(servePoint.position);
+        animator.SetBool("IsHoldingTray", true);
+        while (agent.pathPending || agent.remainingDistance > agent.stoppingDistance)
+            yield return null;
+        animator.SetBool("IsHoldingTray", false);
+
+        animator.SetTrigger("Place");
+        yield return StartCoroutine(WaitForAnimation("Place"));
+
+        if (tray != null) tray.SetActive(false);
+
+
+        hasServed = true;
+        isServing = false;
     }
 
-    IEnumerator NPCSequenceRoutine()
+    private IEnumerator WaitForAnimation(string stateName)
     {
-        // Step 1: Move to food item
-        currentState = State.GoingToPickUp;
-        agent.SetDestination(foodItem.transform.position);
-        animator.SetBool("IsWalking", true);
-        yield return new WaitUntil(() => !agent.pathPending && agent.remainingDistance <= agent.stoppingDistance);
-        animator.SetBool("IsWalking", false);
+        while (!animator.GetCurrentAnimatorStateInfo(0).IsName(stateName))
+            yield return null;
 
-        // Step 2: Pick up food
-        currentState = State.PickingUp;
-        animator.SetTrigger("IsPickingUp");
-        yield return new WaitForSeconds(pickupDuration);
-        AttachFoodToHand();
-
-        // Step 3: Move to drop spot
-        currentState = State.GoingToDrop;
-        agent.SetDestination(dropSpot.position);
-        animator.SetBool("IsWalking", true);
-        yield return new WaitUntil(() => !agent.pathPending && agent.remainingDistance <= agent.stoppingDistance);
-        animator.SetBool("IsWalking", false);
-
-        // Step 4: Drop food
-        currentState = State.Dropping;
-        animator.SetTrigger("IsDropping");
-        yield return new WaitForSeconds(dropDuration);
-        //DropFood();
-
-        hasServed = true; // 设置为已上菜
-
-        // Step 5: Idle
-        currentState = State.Idle;
-        animator.SetTrigger("IsIdle");
+        while (animator.GetCurrentAnimatorStateInfo(0).normalizedTime < 1f)
+            yield return null;
     }
-
-    private void AttachFoodToHand()
-    {
-        foodItem.SetActive(true);
-        foodItem.transform.SetParent(handPivot, false);
-        foodItem.transform.localPosition = Vector3.zero;
-        foodItem.transform.localRotation = Quaternion.identity;
-    }
-
-    /*private void DropFood()
-    {
-        foodItem.transform.SetParent(dropSpot, false);
-        foodItem.transform.localPosition = Vector3.zero;
-        foodItem.transform.localRotation = Quaternion.identity;
-    }*/
 }

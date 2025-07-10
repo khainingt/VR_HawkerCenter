@@ -8,6 +8,8 @@ public class TeleportPlayerToTable : MonoBehaviour
     {
         if (playerTransform != null)
         {
+            ArmSwingLocomotion locomotion = playerTransform.GetComponent<ArmSwingLocomotion>();
+            locomotion.enableMovement = false;
             playerTransform.position = Vector3.zero;
         }
     }
