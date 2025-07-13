@@ -158,13 +158,15 @@ public class GenerateBitmask : MonoBehaviour
             {
                 currentMask |= (ushort)(1 << index);
                 activeTriggers.Add(index);
-                collisionLog.Add($"➡️ {cameraRig.name} 进入 [{index}] {obj.name}");
+                //collisionLog.Add($"➡️ {cameraRig.name} 进入 [{index}] {obj.name}");
+                Debug.Log($"[Trigger Enter] CameraRig 进入 [{index}] {obj.name}");
             }
             else
             {
                 currentMask &= (ushort)~(1 << index);
                 activeTriggers.Remove(index);
-                collisionLog.Add($"⬅️ {cameraRig.name} 离开 [{index}] {obj.name}");
+                //collisionLog.Add($"⬅️ {cameraRig.name} 离开 [{index}] {obj.name}");
+                Debug.Log($"[Trigger Exit] CameraRig 离开 [{index}] {obj.name}");
             }
 
             // 限制 log 条数

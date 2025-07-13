@@ -32,13 +32,13 @@ public class RayInteractor : MonoBehaviour
             GameObject hitObj = hit.collider.gameObject;
 
             string layerName = LayerMask.LayerToName(hitObj.layer);
-            Debug.Log($"[Raycast] Hit object: {hitObj.name}, Layer: {layerName}");
+            //Debug.Log($"[Raycast] Hit object: {hitObj.name}, Layer: {layerName}");
 
             Button button = hitObj.GetComponent<Button>();
             if (button != null)
             {
                 lr.startColor = lr.endColor = Color.red;
-                Debug.Log($"[Button] Button component FOUND on {hitObj.name}");
+                //Debug.Log($"[Button] Button component FOUND on {hitObj.name}");
 
                 if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger, OVRInput.Controller.RTouch))
                 {
