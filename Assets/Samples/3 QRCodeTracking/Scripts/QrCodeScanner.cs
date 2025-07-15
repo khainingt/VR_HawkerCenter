@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+/*sing System.Collections.Generic;
 using PassthroughCameraSamples;
 using System.Threading.Tasks;
 using UnityEngine.Rendering;
@@ -213,4 +213,4 @@ public class QrCodeScanner : MonoBehaviour
         return tcs.Task;
     }
 #endif
-}
+}*/

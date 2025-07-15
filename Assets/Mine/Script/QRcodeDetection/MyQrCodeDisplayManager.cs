@@ -1,5 +1,5 @@
 // MyQrCodeDisplayManager.cs
-using System.Collections.Generic;
+/*using System.Collections.Generic;
 using UnityEngine;
 using OpenCVForUnity.CoreModule;
 using OpenCVForUnity.Calib3dModule;
@@ -77,4 +77,4 @@ public class MyQrCodeDisplayManager : MonoBehaviour
         }
     }
 #endif
-}
+}*/

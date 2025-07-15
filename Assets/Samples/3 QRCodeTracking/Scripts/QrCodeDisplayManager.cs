@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+/*using System.Collections.Generic;
 using PassthroughCameraSamples;
 using UnityEngine;
 using Meta.XR;
@@ -153,4 +153,4 @@ public class QrCodeDisplayManager : MonoBehaviour
         }
     }
 #endif
-}
+}*/
