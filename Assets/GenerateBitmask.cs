@@ -4,66 +4,54 @@ using System.Collections.Generic;
 
 public class GenerateBitmask : MonoBehaviour
 {
-    [Tooltip("最多10个子物体，按索引排列对应bit位置")]
     public GameObject[] prefabs;
-
-    [Tooltip("用于发送bitmask的蓝牙控制脚本")]
     public BLE_nrf52840 bleSender;
-
-    [Tooltip("参考的摄像头对象（如 XR Rig）")]
-    public Transform cameraRig;
-    /*
-    [Tooltip("用于显示 Bitmask 和信息的 UI")]
     public Text bitmaskDisplay;
-
-    [Tooltip("用于显示 Bitmask 数值的 UI")]
     public Text bitmaskStatusPanel;
-
-    [Tooltip("用于显示碰撞系统状态的 UI")]
     public Text collisionStatusPanel;
-    */
+
+    public float colliderHeight = 3f;
+    public float colliderRadius = 0.75f;
+
     private ushort currentMask = 0;
     private ushort lastSentMask = 0;
     private Dictionary<Collider, int> colliderToBitIndex = new();
     private bool[] colliderAdded = new bool[10];
-    private bool cameraRigColliderReady = false;
+    private bool cameraColliderReady = false;
     private HashSet<int> activeTriggers = new();
-    private List<string> collisionLog = new();
+    private GameObject dynamicColliderObject;
 
     void Start()
     {
-        // 初始化摄像头碰撞体
-        if (cameraRig != null)
+        Camera cam = Camera.main;
+        if (cam != null)
         {
-            CapsuleCollider camCol = cameraRig.GetComponent<CapsuleCollider>();
-            if (camCol == null)
-            {
-                camCol = cameraRig.gameObject.AddComponent<CapsuleCollider>();
-                camCol.isTrigger = true;
+            dynamicColliderObject = new GameObject("CameraCollider");
+            dynamicColliderObject.transform.position = cam.transform.position;
 
-                // 设置椭球体大小
-                camCol.height = 3f;       // 椭球体高度（Z轴方向）
-                camCol.radius = 0.75f;      // 半径用于 XZ 横截面
+            CapsuleCollider col = dynamicColliderObject.AddComponent<CapsuleCollider>();
+            col.height = colliderHeight;
+            col.radius = colliderRadius;
+            col.direction = 2; // Z轴方向
+            col.isTrigger = true;
 
-                // 默认 CapsuleCollider 的方向为 Y轴，可以设为 Z轴对齐（与用户朝向一致）
-                camCol.direction = 1; // 0=X, 1=Y, 2=Z
-            }
+            Rigidbody rb = dynamicColliderObject.AddComponent<Rigidbody>();
+            rb.isKinematic = true;
+            rb.useGravity = false;
+            rb.collisionDetectionMode = CollisionDetectionMode.ContinuousSpeculative;
 
-            Rigidbody camRb = cameraRig.GetComponent<Rigidbody>();
-            if (camRb == null)
-            {
-                camRb = cameraRig.gameObject.AddComponent<Rigidbody>();
-                camRb.isKinematic = true;
-            }
-
-            cameraRigColliderReady = (camCol != null && camCol.isTrigger && camRb != null);
-            cameraRig.gameObject.AddComponent<TriggerListener>().Init(this);
+            cameraColliderReady = true;
+            dynamicColliderObject.AddComponent<TriggerListener>().Init(this);
         }
     }
 
     void Update()
     {
-        // 动态注册和注销 Collider
+        if (Camera.main != null && dynamicColliderObject != null)
+        {
+            dynamicColliderObject.transform.position = Camera.main.transform.position;
+        }
+
         for (int i = 0; i < prefabs.Length && i < 10; i++)
         {
             GameObject obj = prefabs[i];
@@ -82,17 +70,16 @@ public class GenerateBitmask : MonoBehaviour
             }
             else
             {
-                // 注销并清除bit位
                 if (colliderAdded[i] && col != null && colliderToBitIndex.ContainsKey(col))
                 {
                     colliderToBitIndex.Remove(col);
                     colliderAdded[i] = false;
-                    currentMask &= (ushort)~(1 << i); // 清除bit
+                    currentMask &= (ushort)~(1 << i);
+                    activeTriggers.Remove(i);
                 }
             }
         }
-
-        /*// Bitmask文本 UI 更新
+        /*
         if (bitmaskDisplay != null)
         {
             System.Text.StringBuilder sb = new();
@@ -103,8 +90,8 @@ public class GenerateBitmask : MonoBehaviour
                 if (obj != null)
                 {
                     string status = obj.activeInHierarchy
-                        ? ((currentMask & (1 << i)) != 0 ? " 已触发" : " 未触发")
-                        : " 未激活";
+                        ? ((currentMask & (1 << i)) != 0 ? " ✅已触发" : " ❌未触发")
+                        : " ⛔未激活";
                     sb.AppendLine($"[{i}] {obj.name}: {status}");
                 }
                 else
@@ -120,13 +107,12 @@ public class GenerateBitmask : MonoBehaviour
             bitmaskStatusPanel.text = $"Bitmask: 0b{System.Convert.ToString(currentMask, 2).PadLeft(10, '0')}\nDecimal: {currentMask}";
         }
 
-        // 碰撞信息面板更新
         if (collisionStatusPanel != null)
         {
             System.Text.StringBuilder sb = new();
             sb.AppendLine("<b>实时碰撞信息：</b>");
-            sb.AppendLine($"CameraRig Collider Ready: {(cameraRigColliderReady ? "yes" : "no")}");
-            sb.AppendLine($"当前触发对象数: {activeTriggers.Count}");
+            sb.AppendLine($"Camera Collider Ready: {(cameraColliderReady ? "✅" : "❌")}");
+            sb.AppendLine($"当前正在触发的对象数: {activeTriggers.Count}");
 
             foreach (int i in activeTriggers)
             {
@@ -137,8 +123,6 @@ public class GenerateBitmask : MonoBehaviour
             collisionStatusPanel.text = sb.ToString();
         }
         */
-
-        // Bitmask变化后发送
         if (currentMask != lastSentMask)
         {
             lastSentMask = currentMask;
@@ -158,21 +142,12 @@ public class GenerateBitmask : MonoBehaviour
             {
                 currentMask |= (ushort)(1 << index);
                 activeTriggers.Add(index);
-                //collisionLog.Add($"➡️ {cameraRig.name} 进入 [{index}] {obj.name}");
-                Debug.Log($"[Trigger Enter] CameraRig 进入 [{index}] {obj.name}");
             }
             else
             {
                 currentMask &= (ushort)~(1 << index);
                 activeTriggers.Remove(index);
-                //collisionLog.Add($"⬅️ {cameraRig.name} 离开 [{index}] {obj.name}");
-                Debug.Log($"[Trigger Exit] CameraRig 离开 [{index}] {obj.name}");
             }
-
-            // 限制 log 条数
-            if (collisionLog.Count > 10)
-                collisionLog.RemoveAt(0);
         }
     }
-
 }
