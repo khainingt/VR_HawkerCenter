@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6f8ca37541028f7449b205a2e39ac7dd
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Sit_Stool_TalkGesture_Short02.controller
+  uploadId: 499557

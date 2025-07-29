@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6f74d4742a8fa1d45a65e88846063b3a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Standing_Tipsy_Idle_HoldingPint.controller
+  uploadId: 499557

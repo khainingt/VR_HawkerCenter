@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 557931ef89c614642adedc3668e1c812
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/Materials/Seat.mat
+  uploadId: 499557

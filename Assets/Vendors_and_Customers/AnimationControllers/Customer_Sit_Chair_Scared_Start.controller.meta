@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bba7d71c789890944b4cc9a9c97407ab
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Sit_Chair_Scared_Start.controller
+  uploadId: 499557

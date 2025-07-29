@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 618ddb38b3fba59449528b9bdae8a6ab
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Standing_Drink_Pint_CheerNChug.controller
+  uploadId: 499557

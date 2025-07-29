@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c7760520fec2727449e2526d5eb91a79
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Standing_Hug.controller
+  uploadId: 499557

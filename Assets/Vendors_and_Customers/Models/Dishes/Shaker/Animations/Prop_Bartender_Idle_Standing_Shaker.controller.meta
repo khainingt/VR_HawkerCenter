@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0970e35422d139b42975fc6c2f5c7417
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/Models/Dishes/Shaker/Animations/Prop_Bartender_Idle_Standing_Shaker.controller
+  uploadId: 499557

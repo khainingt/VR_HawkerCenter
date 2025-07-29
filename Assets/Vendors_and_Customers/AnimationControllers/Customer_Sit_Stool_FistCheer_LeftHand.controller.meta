@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 08bef48e7a44f2349a3ada0dec7b00b8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Sit_Stool_FistCheer_LeftHand.controller
+  uploadId: 499557

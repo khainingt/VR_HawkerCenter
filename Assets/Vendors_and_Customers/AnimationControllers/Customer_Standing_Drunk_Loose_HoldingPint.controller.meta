@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 31e2d0043db19d54884a4fe980b66c84
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Standing_Drunk_Loose_HoldingPint.controller
+  uploadId: 499557

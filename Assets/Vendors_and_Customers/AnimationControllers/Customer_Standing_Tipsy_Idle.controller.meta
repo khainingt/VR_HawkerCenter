@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a129c0fbf265e3d42aaa01849466b35a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Standing_Tipsy_Idle.controller
+  uploadId: 499557

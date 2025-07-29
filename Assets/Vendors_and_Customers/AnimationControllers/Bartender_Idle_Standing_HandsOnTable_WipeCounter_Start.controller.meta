@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: df4011cb3aa01ae4b8dbc3e66f894576
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Bartender_Idle_Standing_HandsOnTable_WipeCounter_Start.controller
+  uploadId: 499557

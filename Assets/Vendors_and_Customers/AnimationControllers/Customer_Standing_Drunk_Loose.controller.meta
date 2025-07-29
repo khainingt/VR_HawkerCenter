@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f89d713150484ea4bb55137b8e26c083
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Standing_Drunk_Loose.controller
+  uploadId: 499557

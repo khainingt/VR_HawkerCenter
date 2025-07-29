@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2b8488ec5b1d88c4ca68c26197d8267a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Cashier_Idle_Standing.controller
+  uploadId: 499557

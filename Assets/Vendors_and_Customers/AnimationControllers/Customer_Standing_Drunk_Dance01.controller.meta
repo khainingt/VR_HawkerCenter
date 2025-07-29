@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b9d790cf270fe4a4e9473747f5480554
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Standing_Drunk_Dance01.controller
+  uploadId: 499557

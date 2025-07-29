@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1a15219e7fd968443acf63e1fb90e9ec
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Standing_WaitingInLine01.controller
+  uploadId: 499557

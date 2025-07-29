@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1e7515cf24859754cada091686551b43
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Server_Idle_HoldingFood.controller
+  uploadId: 499557

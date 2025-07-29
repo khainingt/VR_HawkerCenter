@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a2a4caae1f1c4644294159d27d620b15
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Standing_Drink_Pint_Sip.controller
+  uploadId: 499557

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6bc7377b7c6f8b24fa7993bf1432fb85
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Sit_Chair_Scared_End.controller
+  uploadId: 499557

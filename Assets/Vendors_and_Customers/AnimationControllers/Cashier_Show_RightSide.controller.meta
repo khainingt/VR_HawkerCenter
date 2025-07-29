@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 28bc1ad848a77254f9a637afc4770b86
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Cashier_Show_RightSide.controller
+  uploadId: 499557

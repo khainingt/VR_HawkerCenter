@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d09ab79a186d1af4aaee1db7f34ac8a2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Sit_Chair_Eat_withKnifeFork_Idle.controller
+  uploadId: 499557

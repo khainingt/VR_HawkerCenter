@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0ecdff2994fd9fa4e83e463bc07af5cf
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Salesman_HandGesture_WaveOver.controller
+  uploadId: 499557

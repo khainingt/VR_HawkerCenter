@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 95c92a6b7cdf9ae46b0c6adf8265e30c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Cashier_FlatSceen_Inputs_Single.controller
+  uploadId: 499557

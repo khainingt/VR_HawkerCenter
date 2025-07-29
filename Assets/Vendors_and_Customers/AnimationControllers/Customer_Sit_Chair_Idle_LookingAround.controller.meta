@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d1f3db8b99cca86469477d48e9a7dc18
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Sit_Chair_Idle_LookingAround.controller
+  uploadId: 499557

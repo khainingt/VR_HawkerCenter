@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 557ad30b89b9eb74f84ea4cbf82348fe
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Sit_Chair_Enter_Left.controller
+  uploadId: 499557

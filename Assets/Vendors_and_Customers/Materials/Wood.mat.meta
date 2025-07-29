@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d31adafaa49e3ac469f03d0090a77829
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/Materials/Wood.mat
+  uploadId: 499557

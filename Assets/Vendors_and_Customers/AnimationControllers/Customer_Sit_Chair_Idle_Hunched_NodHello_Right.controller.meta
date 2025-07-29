@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2e36e8108930e7e4aa801a559d27b030
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Sit_Chair_Idle_Hunched_NodHello_Right.controller
+  uploadId: 499557

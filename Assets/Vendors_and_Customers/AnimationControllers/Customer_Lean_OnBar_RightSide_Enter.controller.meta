@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6c303cf4a443d08409e8e163f5c243d4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Lean_OnBar_RightSide_Enter.controller
+  uploadId: 499557

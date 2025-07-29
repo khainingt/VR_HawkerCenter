@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c6afe004b4ad4e24babdd1cbd8543efa
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Sit_Stool_Exit_TurnAround.controller
+  uploadId: 499557
