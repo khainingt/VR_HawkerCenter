@@ -16,7 +16,7 @@ public class VoiceInputManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (OVRInput.GetUp(OVRInput.Button.One))
+        if (OVRInput.GetUp(OVRInput.Button.One, OVRInput.Controller.LTouch))
         {
             voiceExperience.Activate();
         }
