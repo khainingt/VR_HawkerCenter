@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d8354a5444f7ac743ac319657fbc9fe7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Cashier_Handout_End.controller
+  uploadId: 499557

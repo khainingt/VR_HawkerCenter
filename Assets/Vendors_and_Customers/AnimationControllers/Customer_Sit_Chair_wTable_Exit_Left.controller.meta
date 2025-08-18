@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 82b3ed9ff0c1f664b94ffb864a09d170
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Sit_Chair_wTable_Exit_Left.controller
+  uploadId: 499557

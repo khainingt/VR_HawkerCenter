@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b0a03359bdaea434cbfb4ddfa70849b8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Sit_Stool_HoldPintGlass_Enter.controller
+  uploadId: 499557

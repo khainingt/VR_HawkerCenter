@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9b8d47d30dc41fb4a9ddb578e9489c9d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Server_PlaceFoodOnTable_RightSide.controller
+  uploadId: 499557

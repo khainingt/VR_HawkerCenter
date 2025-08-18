@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 13ab6862d412faf4a95b7565b70c85a7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Idle_Indecisive01.controller
+  uploadId: 499557

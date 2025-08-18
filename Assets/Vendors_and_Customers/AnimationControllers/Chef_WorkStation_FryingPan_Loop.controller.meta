@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 03b1a7b02ffc40a46aa3db26635ccfa4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Chef_WorkStation_FryingPan_Loop.controller
+  uploadId: 499557

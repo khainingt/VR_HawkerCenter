@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 28b0d955dd20c7347ad41b8e691131a1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/Models/Dishes/PintGlass/Animations/Prop_Bartender_Idle_Standing_Serve_PintGlass.controller
+  uploadId: 499557

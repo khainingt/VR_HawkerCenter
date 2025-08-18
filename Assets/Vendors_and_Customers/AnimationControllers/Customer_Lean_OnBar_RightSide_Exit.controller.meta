@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 629575ecd46afaa49bea6af7a3707e9e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Lean_OnBar_RightSide_Exit.controller
+  uploadId: 499557

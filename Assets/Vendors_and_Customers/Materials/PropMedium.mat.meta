@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 02f59ce3e05669a49b51e5d19b0df709
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/Materials/PropMedium.mat
+  uploadId: 499557

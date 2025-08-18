@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 380bddf666bfea84fbd2799dd64b1436
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Sit_Chair_Idle_FistCheer01.controller
+  uploadId: 499557

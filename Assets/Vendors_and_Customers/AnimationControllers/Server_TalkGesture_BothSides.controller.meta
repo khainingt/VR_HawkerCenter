@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7747e2feed877974880873b1b69c2c60
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Server_TalkGesture_BothSides.controller
+  uploadId: 499557

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a17aad9945e76fa4ea09945abe279ad9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Standing_ShakeHug.controller
+  uploadId: 499557

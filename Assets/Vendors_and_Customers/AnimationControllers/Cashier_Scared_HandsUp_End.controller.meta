@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8286595539c02b046aa0450c0f1d2f57
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Cashier_Scared_HandsUp_End.controller
+  uploadId: 499557

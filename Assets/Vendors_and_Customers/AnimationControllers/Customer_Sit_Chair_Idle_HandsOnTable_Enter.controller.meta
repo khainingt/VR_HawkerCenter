@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1b3fbd4de95774449a94264bfeae7ba9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Sit_Chair_Idle_HandsOnTable_Enter.controller
+  uploadId: 499557

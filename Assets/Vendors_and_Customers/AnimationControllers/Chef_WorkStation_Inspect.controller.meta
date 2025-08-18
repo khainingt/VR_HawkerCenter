@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 19517c9a7099fc846ac1f4c648704426
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Chef_WorkStation_Inspect.controller
+  uploadId: 499557

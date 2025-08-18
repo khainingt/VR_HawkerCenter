@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: aa7a58f7937196d40809c717e0506618
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Sit_Stool_IdleLoop.controller
+  uploadId: 499557

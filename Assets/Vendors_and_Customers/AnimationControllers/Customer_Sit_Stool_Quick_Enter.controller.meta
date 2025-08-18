@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f3c999291e3bb324ea6b6477c44d6cfb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Sit_Stool_Quick_Enter.controller
+  uploadId: 499557

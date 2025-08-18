@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e6f92aaff16136d45ae97bb247a91c58
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/Materials/Skybox.mat
+  uploadId: 499557

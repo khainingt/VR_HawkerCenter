@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 66491c1ac8008df4eac907f39edb1f71
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Chef_WorkStation_WokStirFry_AddSauce03.controller
+  uploadId: 499557

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5deb8265e556f8f4da622a9c6bfca9c8
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Cashier_Scared_Hide_Start.controller
+  uploadId: 499557

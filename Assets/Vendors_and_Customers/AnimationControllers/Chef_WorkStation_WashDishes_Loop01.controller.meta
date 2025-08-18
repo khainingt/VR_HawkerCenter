@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c2ab6b357e400734c91b7ca0c338822d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Chef_WorkStation_WashDishes_Loop01.controller
+  uploadId: 499557

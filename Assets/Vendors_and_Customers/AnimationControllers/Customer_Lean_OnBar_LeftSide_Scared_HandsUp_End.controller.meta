@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 61e754c12e938b544acf11d4f1c812be
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Lean_OnBar_LeftSide_Scared_HandsUp_End.controller
+  uploadId: 499557

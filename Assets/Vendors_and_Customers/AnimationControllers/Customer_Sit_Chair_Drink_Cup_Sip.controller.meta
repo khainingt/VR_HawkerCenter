@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 882e05b638a7df04e9f55f7215373f17
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Sit_Chair_Drink_Cup_Sip.controller
+  uploadId: 499557

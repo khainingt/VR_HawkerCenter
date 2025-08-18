@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a1c8d61875f4a7945b1247d302bc5382
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Sit_Stool_HoldPintGlass_Chug.controller
+  uploadId: 499557

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e700be3f999b88748bd0ecfd5d39e864
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Sit_Chair_Idle_CrossLegs_WaveHello_Left.controller
+  uploadId: 499557

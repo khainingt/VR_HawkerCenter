@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 21f1c0bc89e5c7c4bb61c90fb4d3c4f1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/Models/Dishes/ClothRag/Animations/Prop_Bartender_Idle_Standing_HandsOnTable_WipeCounter.controller
+  uploadId: 499557

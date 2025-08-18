@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 116742328f9d8454487c94766ebd45a7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Standing_BrowsingItems02.controller
+  uploadId: 499557

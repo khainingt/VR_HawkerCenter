@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f439dc82f14edda43b261fda682a6384
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Cashier_Talk_HeadNod_Yes.controller
+  uploadId: 499557

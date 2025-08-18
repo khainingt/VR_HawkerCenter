@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c80e88b752ae6a243ae57d15454b7295
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Standing_Drink_Pint_Chug.controller
+  uploadId: 499557

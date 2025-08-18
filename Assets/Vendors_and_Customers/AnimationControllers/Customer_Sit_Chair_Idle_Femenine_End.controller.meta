@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c4a173d65ef0a7a48aed350aed9ad2bf
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Sit_Chair_Idle_Femenine_End.controller
+  uploadId: 499557

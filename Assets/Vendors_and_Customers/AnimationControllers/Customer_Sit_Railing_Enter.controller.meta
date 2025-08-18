@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6ef7919a98aca924cb00bd921cb25d72
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Customer_Sit_Railing_Enter.controller
+  uploadId: 499557

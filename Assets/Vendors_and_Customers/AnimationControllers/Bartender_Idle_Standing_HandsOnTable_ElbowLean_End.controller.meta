@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1fafdc86b1b233d4e9721aa08ceea30c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 221875
+  packageName: Vendors and Customers
+  packageVersion: 1.0
+  assetPath: Assets/Vendors_and_Customers/AnimationControllers/Bartender_Idle_Standing_HandsOnTable_ElbowLean_End.controller
+  uploadId: 499557
