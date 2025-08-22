@@ -27,6 +27,7 @@ public class GenerateBitmask : MonoBehaviour
         if (cam != null)
         {
             dynamicColliderObject = new GameObject("CameraCollider");
+            dynamicColliderObject.tag = "Player";
             dynamicColliderObject.transform.position = cam.transform.position;
 
             CapsuleCollider col = dynamicColliderObject.AddComponent<CapsuleCollider>();
@@ -79,50 +80,6 @@ public class GenerateBitmask : MonoBehaviour
                 }
             }
         }
-        /*
-        if (bitmaskDisplay != null)
-        {
-            System.Text.StringBuilder sb = new();
-            sb.AppendLine("<b>对象触发状态：</b>");
-            for (int i = 0; i < prefabs.Length && i < 10; i++)
-            {
-                GameObject obj = prefabs[i];
-                if (obj != null)
-                {
-                    string status = obj.activeInHierarchy
-                        ? ((currentMask & (1 << i)) != 0 ? " ✅已触发" : " ❌未触发")
-                        : " ⛔未激活";
-                    sb.AppendLine($"[{i}] {obj.name}: {status}");
-                }
-                else
-                {
-                    sb.AppendLine($"[{i}] <无效对象>");
-                }
-            }
-            bitmaskDisplay.text = sb.ToString();
-        }
-
-        if (bitmaskStatusPanel != null)
-        {
-            bitmaskStatusPanel.text = $"Bitmask: 0b{System.Convert.ToString(currentMask, 2).PadLeft(10, '0')}\nDecimal: {currentMask}";
-        }
-
-        if (collisionStatusPanel != null)
-        {
-            System.Text.StringBuilder sb = new();
-            sb.AppendLine("<b>实时碰撞信息：</b>");
-            sb.AppendLine($"Camera Collider Ready: {(cameraColliderReady ? "✅" : "❌")}");
-            sb.AppendLine($"当前正在触发的对象数: {activeTriggers.Count}");
-
-            foreach (int i in activeTriggers)
-            {
-                if (i >= 0 && i < prefabs.Length && prefabs[i] != null)
-                    sb.AppendLine($"➡️ 正在触发: [{i}] {prefabs[i].name}");
-            }
-
-            collisionStatusPanel.text = sb.ToString();
-        }
-        */
         if (currentMask != lastSentMask)
         {
             lastSentMask = currentMask;
