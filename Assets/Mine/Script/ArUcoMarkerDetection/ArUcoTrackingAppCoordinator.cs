@@ -51,9 +51,10 @@ namespace TryAR.MarkerTracking
 
         private Texture2D m_resultTexture;
 
-        [Header("NPC")]
+        /*[Header("NPC")]
         [SerializeField] private NPCSequence npc;
-        private bool prevHasServed = false;
+        private bool prevHasServed = false;*/
+
         /// <summary>
         /// Initializes the camera, permissions, and marker tracking system.
         /// </summary>
@@ -155,12 +156,10 @@ namespace TryAR.MarkerTracking
                 SetMarkerObjectsVisibility(m_showCameraCanvas);
             }*/
 
-            if (npc == null) return;
-
-            // 只有从 false → true 的那一帧才切换
+            /*if (npc == null) return;
             if (!prevHasServed && npc.hasServed)
             {
-                m_showCameraCanvas = true; // 或你想要的显示状态
+                m_showCameraCanvas = true; 
                 SetMarkerObjectsVisibility(true);
             }
 
@@ -170,17 +169,18 @@ namespace TryAR.MarkerTracking
                 SetMarkerObjectsVisibility(false);
             }
 
-            // 记录当前状态
-            prevHasServed = npc.hasServed;
+            prevHasServed = npc.hasServed;*/
+            m_showCameraCanvas = true;
+            SetMarkerObjectsVisibility(true);
         }
 
 
-        public void ForceHideMarkers()
+        /*public void ForceHideMarkers()
         {
             m_showCameraCanvas = false;
             SetMarkerObjectsVisibility(false);
             prevHasServed = false;
-        }
+        }*/
 
 
         /// <summary>
