@@ -125,7 +125,7 @@ ModelImporter:
       takeName: 0_T-Pose
       internalID: -7881739814215078984
       firstFrame: 0
-      lastFrame: 1
+      lastFrame: 1037
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -150,11 +150,11 @@ ModelImporter:
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
-      name: 4761249160960_TempMotion
-      takeName: 4761249160960_TempMotion
-      internalID: 2657148984698971264
+      name: Calibration
+      takeName: Calibration
+      internalID: 3294320872195724860
       firstFrame: 0
-      lastFrame: 1
+      lastFrame: 1037
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

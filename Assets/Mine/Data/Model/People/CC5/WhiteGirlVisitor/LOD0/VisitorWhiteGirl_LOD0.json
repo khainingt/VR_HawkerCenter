@@ -1391,7 +1391,7 @@
                                             "Texture Path": "./textures/VisitorWhiteGirl_LOD0/VisitorWhiteGirl_LOD0/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_MetallicAlpha.png_SSSMap.jpg"
                                         },
                                         "MicroNormal": {
-                                            "Texture Path": "./textures/VisitorWhiteGirl_LOD0/VisitorWhiteGirl_LOD0/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_MetallicAlpha.png_MicroN.png"
+                                            "Texture Path": "./textures/VisitorWhiteGirl_LOD0/VisitorWhiteGirl_LOD0/CC_Base_Body/Std_Nails/Std_Nails_MetallicAlpha.png_MicroN.png"
                                         },
                                         "MicroNormalMask": {
                                             "Texture Path": "./textures/VisitorWhiteGirl_LOD0/VisitorWhiteGirl_LOD0/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_MetallicAlpha.png_MicroNMask.jpg"
@@ -1511,7 +1511,7 @@
                                             "Texture Path": "./textures/VisitorWhiteGirl_LOD0/VisitorWhiteGirl_LOD0/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_MetallicAlpha.png_SSSMap.png"
                                         },
                                         "MicroNormal": {
-                                            "Texture Path": "./textures/VisitorWhiteGirl_LOD0/VisitorWhiteGirl_LOD0/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_MetallicAlpha.png_MicroN.png"
+                                            "Texture Path": "./textures/VisitorWhiteGirl_LOD0/VisitorWhiteGirl_LOD0/CC_Base_Body/Std_Nails/Std_Nails_MetallicAlpha.png_MicroN.png"
                                         },
                                         "MicroNormalMask": {
                                             "Texture Path": "./textures/VisitorWhiteGirl_LOD0/VisitorWhiteGirl_LOD0/CC_Base_Body/Std_Skin_Body/Std_Skin_Body_MetallicAlpha.png_MicroNMask.jpg"
@@ -1631,7 +1631,7 @@
                                             "Texture Path": "./textures/VisitorWhiteGirl_LOD0/VisitorWhiteGirl_LOD0/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_MetallicAlpha.png_SSSMap.png"
                                         },
                                         "MicroNormal": {
-                                            "Texture Path": "./textures/VisitorWhiteGirl_LOD0/VisitorWhiteGirl_LOD0/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_MetallicAlpha.png_MicroN.png"
+                                            "Texture Path": "./textures/VisitorWhiteGirl_LOD0/VisitorWhiteGirl_LOD0/CC_Base_Body/Std_Nails/Std_Nails_MetallicAlpha.png_MicroN.png"
                                         },
                                         "MicroNormalMask": {
                                             "Texture Path": "./textures/VisitorWhiteGirl_LOD0/VisitorWhiteGirl_LOD0/CC_Base_Body/Std_Skin_Arm/Std_Skin_Arm_MetallicAlpha.png_MicroNMask.jpg"
@@ -1751,7 +1751,7 @@
                                             "Texture Path": "./textures/VisitorWhiteGirl_LOD0/VisitorWhiteGirl_LOD0/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_MetallicAlpha.png_SSSMap.png"
                                         },
                                         "MicroNormal": {
-                                            "Texture Path": "./textures/VisitorWhiteGirl_LOD0/VisitorWhiteGirl_LOD0/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_MetallicAlpha.png_MicroN.png"
+                                            "Texture Path": "./textures/VisitorWhiteGirl_LOD0/VisitorWhiteGirl_LOD0/CC_Base_Body/Std_Nails/Std_Nails_MetallicAlpha.png_MicroN.png"
                                         },
                                         "MicroNormalMask": {
                                             "Texture Path": "./textures/VisitorWhiteGirl_LOD0/VisitorWhiteGirl_LOD0/CC_Base_Body/Std_Skin_Leg/Std_Skin_Leg_MetallicAlpha.png_MicroNMask.jpg"
@@ -1871,7 +1871,7 @@
                                             "Texture Path": "./textures/VisitorWhiteGirl_LOD0/VisitorWhiteGirl_LOD0/CC_Base_Body/Std_Nails/Std_Nails_MetallicAlpha.png_SSSMap.jpg"
                                         },
                                         "MicroNormal": {
-                                            "Texture Path": "./textures/VisitorWhiteGirl_LOD0/VisitorWhiteGirl_LOD0/CC_Base_Body/Std_Skin_Head/Std_Skin_Head_MetallicAlpha.png_MicroN.png"
+                                            "Texture Path": "./textures/VisitorWhiteGirl_LOD0/VisitorWhiteGirl_LOD0/CC_Base_Body/Std_Nails/Std_Nails_MetallicAlpha.png_MicroN.png"
                                         },
                                         "MicroNormalMask": {
                                             "Texture Path": "./textures/VisitorWhiteGirl_LOD0/VisitorWhiteGirl_LOD0/CC_Base_Body/Std_Nails/Std_Nails_MetallicAlpha.png_MicroNMask.jpg"
