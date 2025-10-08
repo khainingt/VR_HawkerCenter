@@ -15,5 +15,5 @@ MonoBehaviour:
   Subdomain: vr-hawker
   AppId: 683e8dadbf64bc8c6cabc592
   EnableLogging: 0
-  EnableAnalytics: 0
+  EnableAnalytics: 1
   BodyType: 1
